@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "student-information-system",
+    "slug": "student-information-system",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4375BF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ua.cc.durnazeynalli.student-information-system",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "ua.cc.durnazeynalli.student_information_system",
+      "versionCode": 1
+    }
+  }
+}
